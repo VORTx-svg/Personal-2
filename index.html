@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giorgi | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <nav>
+            <div class="logo">YourName</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/profile.jpg" alt="Your Photo" class="profile-img">
+            <h1>Hello, I'm <span>Giorgi</span></h1>
+            <p>A passionate web developer building modern and responsive web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Personal landing page.</p>
+                <a href="https://vortx-svg.github.io/Personal-/" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>Show basic interactivity and backend understanding.</p>
+                <a href="https://vortx-svg.github.io/project2/" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 3</h3>
+                <p>Barbershop appointment booking page.</p>
+                <a href="https://vortx-svg.github.io/client-demo/" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 GIORGI. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/VORTx-svg" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
